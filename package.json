@@ -1,0 +1,26 @@
+{
+  "name": "sql-injection-lab",
+  "version": "1.0.0",
+  "description": "Lab project demonstrating SQL injection (hardened) using Node.js + Express + SQLite",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "init-db": "node init-db.js",
+    "demo": "node demo-client.js",
+    "test": "jest --runInBand"
+  },
+  "dependencies": {
+    "axios": "^1.12.2",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "express": "^4.21.2",
+    "express-rate-limit": "^8.1.0",
+    "express-validator": "^6.15.0",
+    "helmet": "^8.1.0",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4"
+  }
+}
